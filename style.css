@@ -150,19 +150,15 @@ nav a:hover {
     gap: 4rem;
 }
 
-.about-image {
-    flex: 1;
-}
 
-.about-image img {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 50%;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-}
+
 
 .about-content {
-    flex: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .about-content h2 {
@@ -197,12 +193,15 @@ nav a:hover {
         gap: 2rem;
     }
 
-    .about-image img {
-        max-width: 200px;
-    }
+   
 
     .about-content h2 {
         font-size: 2rem;
+    }
+    
+
+    .about-content  {
+        max-width: 100%;
     }
 }
 
